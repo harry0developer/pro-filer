@@ -1,0 +1,381 @@
+[
+    {
+        "category": "Automobile Mechanic",
+        "icon": "mechanic",
+        "services": [
+            "lube service",
+            "minor service",
+            "major service",
+            "general repairs",
+            "parts replacements",
+            "tyres repair",
+            "wheel alignment"
+        ]
+    },
+    {
+        "category": "Barbar Shop",
+        "icon": "barbar-shop",
+        "services": [
+            {
+                "name": "hair cut",
+                "icon": "hair-cut"
+            },
+            {
+                "name": "shave",
+                "icon": "shave"
+            }
+        ]
+    },
+    {
+        "category": "Beauty & Spa",
+        "icon": "beauty-spa",
+        "services": [
+            {
+                "name": "cleaning",
+                "icon": "cleaning"
+            },
+            {
+                "name": "hot stone massage",
+                "icon": "hot-stone-massage"
+            },
+            {
+                "name": "hydrotherapy",
+                "icon": "hydrotherapy"
+            },
+            {
+                "name": "manicure",
+                "icon": "manicure"
+            },
+            {
+                "name": "massage",
+                "icon": "massage"
+            },
+            {
+                "name": "pain point",
+                "icon": "pain-point"
+            },
+            {
+                "name": "pedicure",
+                "icon": "pedicure"
+            },
+            {
+                "name": "waxing",
+                "icon": "waxing"
+            }
+        ]
+    },
+    {
+        "category": "Bricklayer",
+        "icon": "bricklayer",
+        "services": [
+            {
+                "name": "brick wall",
+                "icon": "brick-wall"
+            },
+            {
+                "name": "painting",
+                "icon": "painting"
+            },
+            {
+                "name": "paving",
+                "icon": "paving"
+            },
+            {
+                "name": "other",
+                "icon": "other"
+            }
+        ]
+    },
+    {
+        "category": "Catering",
+        "icon": "catering",
+        "services": [
+            {
+                "name": "baby shower",
+                "icon": "baby-shower"
+            },
+            {
+                "name": "birthday",
+                "icon": "birthday"
+            },
+            {
+                "name": "church",
+                "icon": "church"
+            },
+            {
+                "name": "delivery",
+                "icon": "delivery"
+            },
+            {
+                "name": "funerals",
+                "icon": "funerals"
+            },
+            {
+                "name": "weddings",
+                "icon": "weddings"
+            }
+        ]
+    },
+    {
+        "category": "Cleaning Services",
+        "icon": "cleaning",
+        "services": [
+            {
+                "name": "car wash",
+                "icon": "car-wash"
+            },
+            {
+                "name": "carpets",
+                "icon": "carpets"
+            },
+            {
+                "name": "home & offices",
+                "icon": "home-offices"
+            },
+            {
+                "name": "ironing",
+                "icon": "ironing"
+            },
+            {
+                "name": "laundry",
+                "icon": "laundry"
+            },
+            {
+                "name": "yard",
+                "icon": "yard"
+            }
+        ]
+    },
+    {
+        "category": "Driver/Chauffeur",
+        "icon": "driver",
+        "services": [
+            {
+                "name": "bus",
+                "icon": "bus"
+            },
+            {
+                "name": "forklift",
+                "icon": "forklift"
+            },
+            {
+                "name": "tractor",
+                "icon": "tractor"
+            },
+            {
+                "name": "taxi",
+                "icon": "taxi"
+            },
+            {
+                "name": "Uber / Taxify",
+                "icon": "uber-taxify"
+            }
+        ]
+    },
+    {
+        "category": "Education",
+        "icon": "education",
+        "services": [
+            {
+                "name": "dog training",
+                "icon": "dog-training"
+            },
+            {
+                "name": "kinda garden",
+                "icon": "kinda-garden"
+            },
+            {
+                "name": "high school tutoring",
+                "icon": "tutoring"
+            },
+            {
+                "name": "university/college tutoring",
+                "icon": "tutoring"
+            }
+        ]
+    },
+    {
+        "category": "Events Planning",
+        "icon": "events-planning",
+        "services": [
+            {
+                "name": "baby shower",
+                "icon": "baby-shower"
+            },
+            {
+                "name": "birthday",
+                "icon": "birthday"
+            },
+            {
+                "name": "graduations",
+                "icon": "graduations"
+            },
+            {
+                "name": "weddings",
+                "icon": "babyweddings"
+            }
+        ]
+    },
+    {
+        "category": "Fitness Training",
+        "icon": "fitness-training",
+        "services": [
+            {
+                "name": "acrobatic",
+                "icon": "acrobatic"
+            },
+            {
+                "name": "general",
+                "icon": "general"
+            },
+            {
+                "name": "mommy-fitness",
+                "icon": "mommy-fitness"
+            },
+            {
+                "name": "nutrition",
+                "icon": "nutrition"
+            },
+            {
+                "name": "yoga",
+                "icon": "yoga"
+            }
+        ]
+    },
+    {
+        "category": "Locksmith",
+        "icon": "locksmith",
+        "services": [
+            {
+                "name": "car",
+                "icon": "car"
+            },
+            {
+                "name": "house",
+                "icon": "house"
+            },
+            {
+                "name": "safe",
+                "icon": "safe"
+            },
+            {
+                "name": "truck",
+                "icon": "truck"
+            }
+        ]
+    },
+    {
+        "category": "Nanny/Child Care",
+        "icon": "nanny",
+        "services": [
+            {
+                "name": "baby care",
+                "icon": "baby-care"
+            },
+            {
+                "name": "cooking",
+                "icon": "cooking"
+            },
+            {
+                "name": "ironing",
+                "icon": "ironing"
+            },
+            {
+                "name": "laundry",
+                "icon": "laundry"
+            }
+        ]
+    },
+    {
+        "category": "Plumbing & Installations",
+        "icon": "plumbing",
+        "services": [
+            {
+                "name": "bathtub",
+                "icon": "bathtub"
+            },
+            {
+                "name": "shower",
+                "icon": "shower"
+            },
+            {
+                "name": "taps & zinc",
+                "icon": "taps-zinc"
+            },
+            {
+                "name": "toilets",
+                "icon": "toilets"
+            }
+        ]
+    },
+    {
+        "category": "Storage/Rent/Removals Services",
+        "icon": "storage-removals",
+        "services": [
+            {
+                "name": "removals",
+                "icon": "removals"
+            },
+            {
+                "name": "rent-truck",
+                "icon": "rent-truck"
+            },
+            {
+                "name": "storage",
+                "icon": "storage"
+            }
+        ]
+    },
+    {
+        "category": "Safety & Security",
+        "icon": "security",
+        "services": [
+            {
+                "name": "access control",
+                "icon": "access-control"
+            },
+            {
+                "name": "alarm installations",
+                "icon": "alarm-installations"
+            },
+            {
+                "name": "biometric",
+                "icon": "biometric"
+            },
+            {
+                "name": "boom-gates",
+                "icon": "boom-gates"
+            },
+            {
+                "name": "security",
+                "icon": "security"
+            }
+        ]
+    },
+    {
+        "category": "General",
+        "icon": "welder",
+        "services": [
+            {
+                "name": "welding",
+                "icon": "welding"
+            },
+            {
+                "name": "gardening",
+                "icon": "gardening"
+            },
+            {
+                "name": "painting",
+                "icon": "painting"
+            },
+            {
+                "name": "plumbing",
+                "icon": "painting"
+            },
+            {
+                "name": "plumbing",
+                "icon": "painting"
+            }
+        ]
+    }
+]

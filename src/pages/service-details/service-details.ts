@@ -13,7 +13,40 @@ import { Service } from '../../models/service';
   templateUrl: 'service-details.html',
 })
 export class ServiceDetailsPage {
-  service: Service;
+  service: Service = {
+    uid: "",
+    title: "Spa & massage service",
+    description: "We Are specialist in spa thepary and full body massage",
+    category: "Spa & Beauty",
+    icon: 'beauty-spa',
+    services: [
+      {
+        name: "Full body massage",
+        description: "From head to toes massage that will relax your body"
+      },
+      {
+        name: "Nail Specialist",
+        description: "We do manicue and pedicure for all genders"
+      },
+      {
+        name: "Facial",
+        description: "We are also know for our elegant face massage and make up"
+      }
+    ],
+    company: 'Sally Salon',
+    dateCreated: '2018/02/12 10:12 18',
+    location: {
+      address: "123 small street, Johannesburg",
+      geo: {
+        lat: -19.213,
+        lng: 23.0010
+      }
+    },
+    distance: '28',
+    postedBy: null
+  };
+  viewed = [{ uid: '', date: '' }, { uid: '', date: '' }, { uid: '', date: '' }, { uid: '', date: '' }];
+  requested = [{ uid: '', date: '' }];
   profile: any;
 
   hasApplied: boolean = false;
@@ -22,6 +55,7 @@ export class ServiceDetailsPage {
   myRating: string;
 
   categories: any;
+
 
   constructor(
     public navCtrl: NavController,
@@ -35,9 +69,11 @@ export class ServiceDetailsPage {
   ionViewDidLoad() {
     // this.feedbackProvider.presentLoading();
     // this.profile = this.authProvider.getStoredUser();
-    this.service = this.navParams.get('service');
+    // this.service = this.navParams.get('service');
+    console.log(this.service);
+
     this.categories = this.navParams.get('categories');
-    this.getServicePoster();
+    // this.getServicePoster();
     // let foundService = null;
     // this.dataProvider.getAllFromCollection(COLLECTION.viewedJobs).subscribe(viewedJobs => {
     //   const jobs = this.dataProvider.getArrayFromObjectList(viewedJobs);
@@ -163,8 +199,8 @@ export class ServiceDetailsPage {
   //   });
   // }
 
-  getDateFromNow(date: string) {
-    return this.dataProvider.getDateTimeMoment(date);
+  getDateFromNow(date: string): string {
+    return this.dataProvider.getDateTimeMoment(date) || '';
   }
 
   getUsersViewed() {

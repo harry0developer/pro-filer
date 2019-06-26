@@ -8,6 +8,8 @@ import { ProfilePage } from '../profile/profile';
 import { Rating } from '../../models/rating';
 import { Service } from '../../models/service';
 import { COLLECTION } from '../../utils/const';
+import { ServiceDetailsPage } from '../service-details/service-details';
+import { ServicesListPage } from '../services-list/services-list';
 
 @IonicPage()
 @Component({
@@ -145,8 +147,8 @@ export class DashboardPage {
     return this.dataProvider.getProfilePicture(this.profile);
   }
 
-  viewMyServices() {
-    console.log('my services');
+  viewMyServices(services: Service) {
+    this.feedbackProvider.presentModal(ServicesListPage, { services });
   }
 
   viewRequestedServices() {

@@ -6,7 +6,8 @@ export interface Service {
     title: string;
     description: string;
     category: string;
-    services: string[];
+    icon?: string;
+    services: ServiceData[];
     company: string;
     dateCreated: string;
     location: Location;
@@ -14,3 +15,8 @@ export interface Service {
     postedBy?: string;
 }
 
+
+export interface ServiceData {
+    name: string;
+    description: string;
+}

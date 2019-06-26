@@ -6,6 +6,10 @@ page-service-details {
         margin: 2px;
     }
 
+    ion-item {
+        padding-left: 0 !important;
+    }
+    
     .banner{
         text-align: center;
         background-color: $primary;

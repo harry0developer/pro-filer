@@ -3,11 +3,13 @@ export interface User {
     uid: string;
     email: string;
     phone: string;
+    password?: string;
     firstname: string;
     lastname: string;
     dob: string;
     gender: string;
     race: string;
+    company: Company;
     location: {
         address: string;
         geo: {
@@ -28,6 +30,12 @@ export interface Activity {
     oid: string;
     sid: string;
     date: string;
+}
+
+export interface Company {
+    name: string;
+    regId: string;
+    dateRegistered: string;
 }
 
 export interface Settings {

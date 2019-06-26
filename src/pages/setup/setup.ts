@@ -34,6 +34,7 @@ export class SetupPage {
         lng: 0
       }
     },
+    company: null,
     dob: '',
     dateCreated: '',
     settings: null,

@@ -8,8 +8,8 @@ import { FeedbackProvider } from '../../providers/feedback/feedback';
 import { COLLECTION, STORAGE_KEY, FILTER } from '../../utils/const';
 import { FilterPage } from '../filter/filter';
 import { Filter } from '../../models/filter';
-import { Service } from '../../models/services';
 import { ServiceDetailsPage } from '../service-details/service-details';
+import { Service } from '../../models/service';
 
 @IonicPage()
 @Component({

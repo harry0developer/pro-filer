@@ -148,6 +148,7 @@ export class MultiLoginPage {
           lng: -19.2122
         }
       },
+      company: null,
       dateCreated: this.dataProvider.getDateTime(),
       settings: {
         hide_dob: false,
@@ -165,9 +166,10 @@ export class MultiLoginPage {
       title: 'We feed, You celebrate',
       description: 'We are feed young and old at all sorts of events, we are popular for feeding weddings, funerals and all other ceremonies',
       category: 'Beauty & Spa',
-      services: ["funerals", "office", "other events", "weddings", "other"],
+      services: [],
       dateCreated: this.dataProvider.getDateTime(),
       company: "Phutilicious Catering Co.",
+      icon: '',
       location: {
         address: '440 Cosmocity ext 9, Johannesburg',
         geo: {

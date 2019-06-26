@@ -10,6 +10,8 @@ import { ProfilePage } from '../pages/profile/profile';
 import { User } from '../models/user';
 import { EVENTS } from '../utils/const';
 import { ServicesPage } from '../pages/services/services';
+import { ServiceDetailsPage } from '../pages/service-details/service-details';
+import { PostServicePage } from '../pages/post-service/post-service';
 
 
 @Component({
@@ -18,7 +20,7 @@ import { ServicesPage } from '../pages/services/services';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = MultiLoginPage;
+  rootPage: any = PostServicePage;
 
   pages: any;
   profile: User;

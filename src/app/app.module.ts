@@ -29,12 +29,15 @@ import { SetupPage } from '../pages/setup/setup';
 import { FilterPage } from '../pages/filter/filter';
 import { CategoryPage } from '../pages/category/category';
 import { DashboardPage } from '../pages/dashboard/dashboard';
+import { ServicesListPage } from '../pages/services-list/services-list';
+import { PostServicePage } from '../pages/post-service/post-service';
 
 @NgModule({
   declarations: [
     MyApp,
     ServicesPage,
     ServiceDetailsPage,
+    ServicesListPage,
     ProfilePage,
     MultiLoginPage,
     MultiSignupPage,
@@ -42,7 +45,8 @@ import { DashboardPage } from '../pages/dashboard/dashboard';
     ProfilePage,
     FilterPage,
     CategoryPage,
-    DashboardPage
+    DashboardPage,
+    PostServicePage
   ],
   imports: [
     BrowserModule,
@@ -59,6 +63,7 @@ import { DashboardPage } from '../pages/dashboard/dashboard';
     MyApp,
     ServicesPage,
     ServiceDetailsPage,
+    ServicesListPage,
     ProfilePage,
     MultiLoginPage,
     MultiSignupPage,
@@ -66,7 +71,8 @@ import { DashboardPage } from '../pages/dashboard/dashboard';
     ProfilePage,
     FilterPage,
     CategoryPage,
-    DashboardPage
+    DashboardPage,
+    PostServicePage
   ],
   providers: [
     StatusBar,
