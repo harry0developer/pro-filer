@@ -36,6 +36,8 @@ export class PostServicePage {
   skills: any;
   address;
   profile: any;
+
+  cat: any;
   constructor(
     public navCtrl: NavController,
     private dataProvider: DataProvider,
@@ -51,8 +53,7 @@ export class PostServicePage {
     const action = this.navParams.get('action');
     this.profile = this.authProvider.getStoredUser();
     this.dataProvider.getServices().then(res => {
-      console.log(res);
-
+      this.categories = res;
     })
 
     // this.dataProvider.getJobServices().then(services => {
@@ -70,11 +71,13 @@ export class PostServicePage {
   }
 
   selectedCategory(cat) {
-    this.categories.forEach(cate => {
-      if (cate.name == cat) {
-        this.skills = cate.skills;
-      }
-    });
+    console.log(cat);
+
+    // this.categories.forEach(cate => {
+    //   if (cate.name == cat) {
+    //     this.skills = cate.skills;
+    //   }
+    // });
   }
 
 

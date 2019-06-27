@@ -19,6 +19,37 @@
               <p class="animated tada" [hidden]="!title.hasError('pattern')">Service title is too short</p>
             </div>
           </ion-col>
+
+          <ion-col col-12>
+            <ion-item no-lines>
+              <ion-label floating>Category</ion-label>
+              <ion-select [(ngModel)]="data.category" multiple="false" required category="category"
+                #category="ngModel">
+                <ion-option [value]="category" *ngFor="let category of categories; let i = index">
+                  {{category.name}}
+                </ion-option>
+              </ion-select>
+            </ion-item>
+            <div [hidden]="category.valid || category.pristine" class="validation">
+              <p class="animated tada" [hidden]="!category.hasError('required')">Category is required</p>
+            </div>
+          </ion-col>
+
+          <ion-col col-12 *ngIf="data.category">
+            <ion-item no-lines>
+              <ion-label floating>Services</ion-label>
+              <ion-select [(ngModel)]="data.services" multiple="true" required service="service"
+                #service="ngModel">
+                <ion-option [value]="service" *ngFor="let service of data.category.services; let i = index">
+                  {{service.name}}
+                </ion-option>
+              </ion-select>
+            </ion-item>
+            <div [hidden]="category.valid || category.pristine" class="validation">
+              <p class="animated tada" [hidden]="!category.hasError('required')">Category is required</p>
+            </div>
+          </ion-col>
+
         </ion-row>
       </ion-grid>
 <!--   

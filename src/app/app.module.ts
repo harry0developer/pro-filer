@@ -31,6 +31,7 @@ import { CategoryPage } from '../pages/category/category';
 import { DashboardPage } from '../pages/dashboard/dashboard';
 import { ServicesListPage } from '../pages/services-list/services-list';
 import { PostServicePage } from '../pages/post-service/post-service';
+import { UiPage } from '../pages/ui/ui';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { PostServicePage } from '../pages/post-service/post-service';
     FilterPage,
     CategoryPage,
     DashboardPage,
-    PostServicePage
+    PostServicePage,
+    UiPage
   ],
   imports: [
     BrowserModule,
@@ -72,7 +74,8 @@ import { PostServicePage } from '../pages/post-service/post-service';
     FilterPage,
     CategoryPage,
     DashboardPage,
-    PostServicePage
+    PostServicePage,
+    UiPage
   ],
   providers: [
     StatusBar,

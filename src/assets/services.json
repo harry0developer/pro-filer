@@ -1,19 +1,36 @@
 [
     {
-        "category": "Automobile Mechanic",
+        "name": "Automobile Mechanic",
         "icon": "mechanic",
         "services": [
-            "lube service",
-            "minor service",
-            "major service",
-            "general repairs",
-            "parts replacements",
-            "tyres repair",
-            "wheel alignment"
+            {
+                "name": "battery replacement",
+                "icon": "battery"
+            },
+            {
+                "name": "major service",
+                "icon": "major-service"
+            },
+            {
+                "name": "minor service",
+                "icon": "minor-service"
+            },
+            {
+                "name": "plugs replacement",
+                "icon": "plugs-replacement"
+            },
+            {
+                "name": "tow truck",
+                "icon": "tow-truck"
+            },
+            {
+                "name": "tyre align/replace",
+                "icon": "tyre-replacement"
+            }
         ]
     },
     {
-        "category": "Barbar Shop",
+        "name": "Barbar Shop",
         "icon": "barbar-shop",
         "services": [
             {
@@ -27,7 +44,7 @@
         ]
     },
     {
-        "category": "Beauty & Spa",
+        "name": "Beauty & Spa",
         "icon": "beauty-spa",
         "services": [
             {
@@ -65,12 +82,12 @@
         ]
     },
     {
-        "category": "Bricklayer",
+        "name": "Bricklayer",
         "icon": "bricklayer",
         "services": [
             {
-                "name": "brick wall",
-                "icon": "brick-wall"
+                "name": "house & stop nonsense",
+                "icon": "bricklayer"
             },
             {
                 "name": "painting",
@@ -87,7 +104,7 @@
         ]
     },
     {
-        "category": "Catering",
+        "name": "Catering",
         "icon": "catering",
         "services": [
             {
@@ -117,7 +134,7 @@
         ]
     },
     {
-        "category": "Cleaning Services",
+        "name": "Cleaning Services",
         "icon": "cleaning",
         "services": [
             {
@@ -129,8 +146,8 @@
                 "icon": "carpets"
             },
             {
-                "name": "home & offices",
-                "icon": "home-offices"
+                "name": "home",
+                "icon": "home"
             },
             {
                 "name": "ironing",
@@ -147,7 +164,7 @@
         ]
     },
     {
-        "category": "Driver/Chauffeur",
+        "name": "Driver/Chauffeur",
         "icon": "driver",
         "services": [
             {
@@ -157,6 +174,10 @@
             {
                 "name": "forklift",
                 "icon": "forklift"
+            },
+            {
+                "name": "scooter",
+                "icon": "scooter"
             },
             {
                 "name": "tractor",
@@ -173,7 +194,7 @@
         ]
     },
     {
-        "category": "Education",
+        "name": "Education",
         "icon": "education",
         "services": [
             {
@@ -195,7 +216,7 @@
         ]
     },
     {
-        "category": "Events Planning",
+        "name": "Events Planning",
         "icon": "events-planning",
         "services": [
             {
@@ -217,7 +238,7 @@
         ]
     },
     {
-        "category": "Fitness Training",
+        "name": "Fitness Training",
         "icon": "fitness-training",
         "services": [
             {
@@ -243,7 +264,7 @@
         ]
     },
     {
-        "category": "Locksmith",
+        "name": "Locksmith",
         "icon": "locksmith",
         "services": [
             {
@@ -265,7 +286,7 @@
         ]
     },
     {
-        "category": "Nanny/Child Care",
+        "name": "Nanny/Child Care",
         "icon": "nanny",
         "services": [
             {
@@ -287,7 +308,7 @@
         ]
     },
     {
-        "category": "Plumbing & Installations",
+        "name": "Plumbing & Installations",
         "icon": "plumbing",
         "services": [
             {
@@ -309,8 +330,8 @@
         ]
     },
     {
-        "category": "Storage/Rent/Removals Services",
-        "icon": "storage-removals",
+        "name": "Storage/Rent/Removals Services",
+        "icon": "storage",
         "services": [
             {
                 "name": "removals",
@@ -327,7 +348,7 @@
         ]
     },
     {
-        "category": "Safety & Security",
+        "name": "Safety & Security",
         "icon": "security",
         "services": [
             {
@@ -349,32 +370,6 @@
             {
                 "name": "security",
                 "icon": "security"
-            }
-        ]
-    },
-    {
-        "category": "General",
-        "icon": "welder",
-        "services": [
-            {
-                "name": "welding",
-                "icon": "welding"
-            },
-            {
-                "name": "gardening",
-                "icon": "gardening"
-            },
-            {
-                "name": "painting",
-                "icon": "painting"
-            },
-            {
-                "name": "plumbing",
-                "icon": "painting"
-            },
-            {
-                "name": "plumbing",
-                "icon": "painting"
             }
         ]
     }

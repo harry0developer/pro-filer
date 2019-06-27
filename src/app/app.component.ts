@@ -12,6 +12,7 @@ import { EVENTS } from '../utils/const';
 import { ServicesPage } from '../pages/services/services';
 import { ServiceDetailsPage } from '../pages/service-details/service-details';
 import { PostServicePage } from '../pages/post-service/post-service';
+import { UiPage } from '../pages/ui/ui';
 
 
 @Component({
@@ -20,7 +21,7 @@ import { PostServicePage } from '../pages/post-service/post-service';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = PostServicePage;
+  rootPage: any = UiPage;
 
   pages: any;
   profile: User;
